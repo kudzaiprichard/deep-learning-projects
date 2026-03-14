@@ -1,0 +1,20 @@
+name: dev0
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tensorflow
+  - keras
+  - jupyter
+  - opencv
+  - pillow
+  - seaborn
+  - pip
+  - pip:
+    - yfinance
+    - ta

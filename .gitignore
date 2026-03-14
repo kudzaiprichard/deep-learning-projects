@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Conda environment
+dev0/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.h5
+*.pkl
+
+# Environment variables
+.env
+
+# Model files
+models/
+*.keras
+*.weights.h5
+
+# Logs
+logs/
+*.log
