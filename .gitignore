@@ -17,18 +17,20 @@ dev0/
 .DS_Store
 Thumbs.db
 
-# Data files
+# Data folders (raw data, CSVs, images, datasets)
+data/
 *.csv
 *.h5
 *.pkl
+*.json
 
-# Environment variables
-.env
-
-# Model files
+# Model folders (saved models, scalers, configs)
 models/
 *.keras
 *.weights.h5
+
+# Environment variables
+.env
 
 # Logs
 logs/

@@ -3,18 +3,19 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.12
   - numpy
   - pandas
   - matplotlib
   - scikit-learn
-  - tensorflow
-  - keras
   - jupyter
   - opencv
   - pillow
   - seaborn
+  - joblib
   - pip
   - pip:
     - yfinance
     - ta
+    - tensorflow
+    - keras
